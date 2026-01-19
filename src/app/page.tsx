@@ -1,6 +1,9 @@
+import HomePage from "@/components/layout/homepage";
 
-const AppPage = () => {
-  return <h1>AppPage</h1>
+export default function Home() {
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 }
-
-export default AppPage;
